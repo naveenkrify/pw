@@ -7,6 +7,7 @@ let keys = {
 }
 
 push.setVapidDetails('mailto:naveen@krify.net', keys.publicKey, keys.privateKey)
-let sub = { "endpoint": "https://fcm.googleapis.com/fcm/send/dMMSEwJNDZw:APA91bGJfGuRMmsXuCt21P7Zl7iQFfO0daixvojf1Dw7XmeqgMF0mnA5uahEG1-mt8dEy21kWdi2uog2XSTjcvnIRHk8JvjM4Fw9b-Y-O2vEPMNX55VkZCwFuDYKS0krpaKIgOcmSJL2", "expirationTime": null, "keys": { "p256dh": "BCcM4jg64Ffy10LcNvy63jsdLAXb86IvK0V2WcGbqjeKhkHFtTGHJSSRFqmAaXFPqGMlZXZNVqrf03yUark_hQo", "auth": "TTLfOHTzQ9EfVl3AiGzVtA" } }
+let sub = { "endpoint": "https://fcm.googleapis.com/fcm/send/dk6ubvOeM-U:APA91bFjcj9a-z-8AKQCaPyME2mmGp3_W0BN3dwi_j2b6Xs0F5JHmrRrrOkNUAdQh2ANFYbEXjWubHjR5wpgn0vzgtfE1Qxv9yM6oeiQB4Xx2TrwLAg5uh6F72F4DrAFMMtkSE-013-r", "expirationTime": null, "keys": { "p256dh": "BC7YyXw9m_kiCWNJ8ekyknoYqjKwwxBrJz7jeLXFcBWdVoqyWeiV5mRT2D7mghvvL4JHamJwLjgFK9GFaSPeSFs", "auth": "Xo8UD7mKFeYxXWJIM2TKhA" } }
+
 
 push.sendNotification(sub, 'test message')
