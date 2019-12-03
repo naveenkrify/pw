@@ -2,7 +2,7 @@ self.addEventListener('push', function (e) {
     //console.log(e.data)
     var data = e.data.json()
     var options = {
-        body: data.name,
+        body: data.name.toString(),
         icon: 'images/example.png',
         vibrate: [100, 50, 100],
         data: {
