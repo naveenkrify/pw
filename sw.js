@@ -1,6 +1,6 @@
 self.addEventListener('push', function (e) {
     //console.log(e.data)
-    var data = e.data.json()
+    //var data = e.data.json()
     var options = {
         body: "kshgdfshdfsbh",
         icon: 'images/example.png',
