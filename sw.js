@@ -1,7 +1,7 @@
 self.addEventListener('push', function (e) {
     console.log(e.data)
     var options = {
-        body: 'This notification was generated from a push!',
+        body: e.data.toString(),
         icon: 'images/example.png',
         vibrate: [100, 50, 100],
         data: {
